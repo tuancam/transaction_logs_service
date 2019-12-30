@@ -1,4 +1,4 @@
-export default {
+export default  {
     database: 'mongodb://171.244.9.42:27017/tungtung',
     dbOptions: {
       native_parser: true,

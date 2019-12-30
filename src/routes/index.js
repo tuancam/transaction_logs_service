@@ -1,12 +1,8 @@
-import express from "express";
+import Logs from './Logs'
 
-var router = express.Router();
-
-
-router.get('/demo', async(req, res) => {
-    res.json({
-        demo: "demo"
-    })
-  });
-
-  export default router;
+export {
+    Logs
+}
+export default {
+    Logs
+}
